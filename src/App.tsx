@@ -32,16 +32,18 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="h-screen max-w-[680px] overflow-y-auto snap-y snap-mandatory">
-      <ContentContainer currentSection={currentSection} />
-      {backgrounds.map((background, index) => (
-        <Background
-          key={index}
-          ref={(el) => (sectionRefs.current[index] = el)}
-          bgType={background.bgType}
-          bgValue={background.bgValue}
-        />
-      ))}
+    <div className="h-screen w-screen">
+      <div className="h-screen mx-auto max-w-[600px] overflow-y-auto snap-y snap-mandatory">
+        <ContentContainer currentSection={currentSection} />
+        {backgrounds.map((background, index) => (
+          <Background
+            key={index}
+            ref={(el) => (sectionRefs.current[index] = el)}
+            bgType={background.bgType}
+            bgValue={background.bgValue}
+          />
+        ))}
+      </div>
     </div>
   );
 };
