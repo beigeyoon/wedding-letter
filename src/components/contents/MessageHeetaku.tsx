@@ -11,7 +11,7 @@ export const MessageHeetaku = () => {
     <div className="w-full font-oswald text-5xl font-bold text-right text-white flex justify-end">
       <motion.img
         src="/images/message_02.webp"
-        className="w-[50%] pt-4"
+        className="w-[50%] pt-4 custom-shadow"
         variants={wipeInVariants}
         initial="initial"
         animate={{
