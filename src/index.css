@@ -5,6 +5,8 @@
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --font-oswald: 'Oswald', ui-sans-serif, system-ui, sans-serif;
   --font-gowun: 'Gowun Batang', ui-sans-serif, system-ui, sans-serif;
+  --font-cormorant-garamond: 'Cormorant Garamond', ui-sans-serif, system-ui,
+    sans-serif;
 
   --color-beige: #f7f5e9;
 }

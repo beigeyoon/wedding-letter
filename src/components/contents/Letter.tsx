@@ -8,7 +8,7 @@ const fadeInVariants = {
 
 export const Letter = () => {
   return (
-    <div className="py-8 w-full h-full not-visited:text-center text-black font-gowun flex flex-col justify-between">
+    <div className="w-full h-full not-visited:text-center text-black font-gowun flex flex-col justify-between">
       <motion.div
         variants={fadeInVariants}
         initial="initial"
@@ -16,8 +16,9 @@ export const Letter = () => {
         exit="exit"
         transition={{ duration: 0.4, ease: 'easeInOut' }}
       >
+        <img src="/images/black_flower.png" className="w-18 mx-auto mb-4" />
         <h1 className="text-3xl font-extrabold pb-3">결 혼 합 니 다</h1>
-        <h2 className="text-xl">2025. 02. 21</h2>
+        <h2 className="text-xl">2025. 02. 21 (금)</h2>
       </motion.div>
 
       <motion.p

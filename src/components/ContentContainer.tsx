@@ -2,13 +2,22 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Main } from './contents/Main';
 import { Letter } from './contents/Letter';
 import { Gallery } from './contents/Gallery';
-import { Information } from './contents/Information';
+import { MessageYooni } from './contents/MessageYooni';
+import { MessageHeetaku } from './contents/MessageHeetaku';
+import { Thanks } from './contents/Thanks';
 
 interface AnimatedTitleProps {
   currentSection: number;
 }
 
-const SectionComponent = [Main, Letter, Gallery, Information];
+const SectionComponent = [
+  Main,
+  Letter,
+  Gallery,
+  MessageYooni,
+  MessageHeetaku,
+  Thanks,
+];
 
 const ContentContainer: React.FC<AnimatedTitleProps> = ({ currentSection }) => {
   const CurrentComponent = SectionComponent[currentSection];

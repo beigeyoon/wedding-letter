@@ -14,27 +14,41 @@ const textVariantYEOKYUNG = {
 
 export const Main = () => {
   return (
-    <div className="w-full font-oswald text-5xl font-bold text-right leading-12 pt-2">
+    <div className="w-full font-cormorant-garamond text-5xl text-right leading-12 pt-2 font-bold">
       <motion.span
         className="block"
         variants={textVariantHEETAK}
         initial="initial"
-        animate="animate"
-        exit="exit"
-        transition={{ duration: 0.4, ease: 'easeInOut' }}
+        animate={{
+          opacity: 1,
+          x: 0,
+          transition: { duration: 0.6, ease: 'easeInOut' }, // 등장할 때
+        }}
+        exit={{
+          opacity: 0,
+          x: -100,
+          transition: { duration: 0.4, ease: 'easeInOut' }, // 사라질 때
+        }}
       >
-        HEETAK
+        Heetak
       </motion.span>
 
       <motion.span
-        className="block"
+        className="block text-white"
         variants={textVariantYEOKYUNG}
         initial="initial"
-        animate="animate"
-        exit="exit"
-        transition={{ duration: 0.4, ease: 'easeInOut' }}
+        animate={{
+          opacity: 1,
+          x: 0,
+          transition: { duration: 0.6, ease: 'easeInOut' }, // 등장할 때
+        }}
+        exit={{
+          opacity: 0,
+          x: 100,
+          transition: { duration: 0.4, ease: 'easeInOut' }, // 사라질 때
+        }}
       >
-        YEOKYUNG
+        Yeokyung
       </motion.span>
     </div>
   );

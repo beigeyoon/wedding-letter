@@ -11,10 +11,18 @@ export const backgrounds: BackgroundData[] = [
   },
   {
     bgType: 'color',
-    bgValue: 'bg-black',
+    bgValue: 'bg-beige',
+  },
+  {
+    bgType: 'image',
+    bgValue: '/images/yooni.webp'
+  },
+  {
+    bgType: 'image',
+    bgValue: '/images/heetaku.webp',
   },
   {
     bgType: 'color',
     bgValue: 'bg-beige',
-  }
+  },
 ];

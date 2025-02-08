@@ -5,12 +5,15 @@ import { useEffect, useRef } from 'react';
 import { motion } from 'motion/react';
 
 const images = [
-  { original: '/images/wedding_01.webp' },
+  { original: '/images/wedding_10.webp' },
   { original: '/images/wedding_02.webp' },
-  { original: '/images/wedding_03.webp' },
-  { original: '/images/wedding_04.webp' },
   { original: '/images/wedding_05.webp' },
+  { original: '/images/wedding_04.webp' },
+  { original: '/images/wedding_03.webp' },
+  { original: '/images/wedding_09.webp' },
   { original: '/images/wedding_06.webp' },
+  { original: '/images/wedding_07.webp' },
+  { original: '/images/wedding_08.webp' },
 ];
 
 const fadeInVariants = {
