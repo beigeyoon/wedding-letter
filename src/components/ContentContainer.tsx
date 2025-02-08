@@ -24,7 +24,7 @@ const ContentContainer: React.FC<AnimatedTitleProps> = ({ currentSection }) => {
   return (
     <AnimatePresence mode="wait">
       <motion.div
-        className="w-full h-full fixed px-8 py-16 z-10 pointer-events-none"
+        className="fixed max-w-[600px] h-full w-full px-8 py-16 z-120 pointer-events-none"
         key={currentSection}
         initial="initial"
         animate="animate"
