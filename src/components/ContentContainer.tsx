@@ -14,8 +14,8 @@ const SectionComponent = [
   Main,
   Letter,
   Gallery,
-  MessageYooni,
   MessageHeetaku,
+  MessageYooni,
   Thanks,
 ];
 

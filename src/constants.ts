@@ -15,11 +15,11 @@ export const backgrounds: BackgroundData[] = [
   },
   {
     bgType: 'image',
-    bgValue: '/images/yooni.webp'
+    bgValue: '/images/heetaku.webp'
   },
   {
     bgType: 'image',
-    bgValue: '/images/heetaku.webp',
+    bgValue: '/images/yooni.webp',
   },
   {
     bgType: 'color',
