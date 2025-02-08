@@ -52,7 +52,10 @@ export const Gallery = () => {
   }, []);
 
   // 왼쪽 네비게이션 아이콘
-  const renderLeftNav = (onClick: () => void, disabled: boolean) => (
+  const renderLeftNav = (
+    onClick: React.MouseEventHandler<HTMLElement>,
+    disabled: boolean
+  ) => (
     <button
       type="button"
       className="absolute top-1/2 -translate-y-1/2 left-1 z-10 text-white"
@@ -64,7 +67,10 @@ export const Gallery = () => {
   );
 
   // 오른쪽 네비게이션 아이콘
-  const renderRightNav = (onClick: () => void, disabled: boolean) => (
+  const renderRightNav = (
+    onClick: React.MouseEventHandler<HTMLElement>,
+    disabled: boolean
+  ) => (
     <button
       type="button"
       className="absolute top-1/2 -translate-y-1/2 right-1 z-10 text-white"
