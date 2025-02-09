@@ -10,7 +10,7 @@ export const MessageYooni = () => {
   return (
     <div className="w-full font-oswald text-5xl font-bold text-right text-white">
       <motion.img
-        className="pt-8"
+        className="pt-8 custom-shadow"
         src="/images/message_01.webp"
         variants={wipeInVariants}
         initial="initial"
