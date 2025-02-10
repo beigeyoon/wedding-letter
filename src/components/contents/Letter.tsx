@@ -16,7 +16,7 @@ export const Letter = () => {
         exit="exit"
         transition={{ duration: 0.4, ease: 'easeInOut' }}
       >
-        <img src="/images/black_flower.png" className="w-13 mx-auto mb-4" />
+        <img src="/images/black_flower.png" className="w-12 mx-auto mb-4" />
         <h1 className="text-3xl font-extrabold pb-3">결 혼 합 니 다</h1>
         <h2 className="text-xl">2025. 02. 21 (금)</h2>
       </motion.div>
@@ -29,7 +29,7 @@ export const Letter = () => {
         exit="exit"
         transition={{ duration: 0.4, ease: 'easeInOut' }}
       >
-        저희는 거창한 결혼식 대신
+        저희는 풍성한 결혼식 대신
         <br />
         직계 가족들만 모신 소박한 자리에서
         <br />
